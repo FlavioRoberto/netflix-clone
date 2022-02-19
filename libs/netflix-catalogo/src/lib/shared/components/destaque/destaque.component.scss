@@ -1,0 +1,39 @@
+.destaque {
+    position: relative;
+
+    img {
+        max-width: 100%;
+    }
+
+    p {
+        color: #fff;
+
+        &.titulo {
+            font-weight: bolder;
+            font-stretch: expanded;
+        }
+
+        &.subtitulo {
+        }
+
+        &.sinopse {
+            font-weight: 500;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        left: 0;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+}

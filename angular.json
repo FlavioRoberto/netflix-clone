@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "netflix-catalogo": "libs/netflix-catalogo",
     "netflix-clone": "apps/netflix-clone",
     "netflix-clone-e2e": "apps/netflix-clone-e2e"
   }

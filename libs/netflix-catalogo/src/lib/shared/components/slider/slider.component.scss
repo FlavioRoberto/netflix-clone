@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.titulo{
+  color: #FFF;
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin: .25em 0em;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  flex: 0 0 19.7%;
+  text-align: center;
+  margin: 0 2px;
+  transition: transform 300ms ease 100ms;
+
+  img {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+.content:hover .item {
+  transform: translateX(-25%);
+}
+
+.item:hover ~ .item {
+  transform: translateX(25%);
+}
+
+.item:hover {
+  transform: scale(1.5) !important;
+}

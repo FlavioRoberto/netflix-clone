@@ -1,0 +1,25 @@
+.logo {
+    max-width: 8em;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+
+    li {
+        float: left;
+        padding: 10px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+.perfil {
+    vertical-align: middle;
+    height: 32px;
+    width: 32px;
+}

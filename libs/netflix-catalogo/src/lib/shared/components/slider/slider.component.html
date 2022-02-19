@@ -1,0 +1,9 @@
+<p class="titulo">{{titulo}}</p>
+
+<section class="content">
+    <div class="item"
+         *ngFor="let filme of filmes">
+        <img [src]="filme.url"
+             [alt]="filme.titulo">
+    </div>
+</section>
